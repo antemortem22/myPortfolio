@@ -248,10 +248,8 @@ header .navbar a:hover{
     color:var(--purple);
 }
 
-/* SECCION S K I L L S */
+/* SKILLS */
 .skills{
-    background-color: #370646;
-    color: #fff;
     padding: 50px 20px;
 }
 .skills .content-section{
@@ -274,27 +272,32 @@ header .navbar a:hover{
 .skills .fila .col h3{
     font-size: 28px;
     margin-bottom: 25px;
+    color: #000000;
+}
+.skills .fila .col h3 > span{
+    color:var(--purple)
 }
 .skills .skill > span{
     font-weight: bold;
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
 }
-.skills .skill .barra-skill{
+.skills .skill .skill-bar{
     height: 8px;
     width: 80%;
     background-color: #131517;
     position: relative;
     margin-bottom: 30px;
 }
-.skills .skill .progreso{
+.skills .skill .progress{
     background-color: var(--purple);
     position: absolute;
     top: 0;
     left: 0;
     height: 8px;
 }
-.skills .skill .barra-skill span{
+.skills .skill .skill-bar span{
     position: absolute;
     height: 40px;
     width: 40px;
@@ -306,14 +309,13 @@ header .navbar a:hover{
     right: -15px;
     font-size: 14px;
 }
-/* Estas clases se agregaran dinamicamente mediante javascript */
 .skills .skill .javascript{
     width: 0%;
     animation: 2s javascript forwards;
 }
 @keyframes javascript {
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 50%;}
 }
 
 .skills .skill .htmlcss{
@@ -325,74 +327,74 @@ header .navbar a:hover{
     100%{width: 89%;}
 }
 
-.skills .skill .photoshop{
+.skills .skill .python{
     width: 0%;
-    animation: 2s photoshop forwards;
+    animation: 2s python forwards;
 }
-@keyframes photoshop {
-    0%{width: 0%;}
-    100%{width: 95%;}
-}
-
-.skills .skill .wordpress{
-    width: 0%;
-    animation: 2s wordpress forwards;
-}
-@keyframes wordpress {
-    0%{width: 0%;}
-    100%{width: 81%;}
-}
-
-.skills .skill .drupal{
-    width: 0%;
-    animation: 2s drupal forwards;
-}
-@keyframes drupal {
-    0%{width: 0%;}
-    100%{width: 55%;}
-}
-
-.skills .skill .comunicacion{
-    width: 0%;
-    animation: 2s comunicacion forwards;
-}
-@keyframes comunicacion {
-    0%{width: 0%;}
-    100%{width: 80%;}
-}
-
-.skills .skill .trabajo{
-    width: 0%;
-    animation: 2s trabajo forwards;
-}
-@keyframes trabajo {
+@keyframes python {
     0%{width: 0%;}
     100%{width: 70%;}
 }
 
-.skills .skill .creatividad{
+.skills .skill .linux{
     width: 0%;
-    animation: 2s creatividad forwards;
+    animation: 2s linux forwards;
 }
-@keyframes creatividad {
+@keyframes linux {
     0%{width: 0%;}
-    100%{width: 99%;}
+    100%{width: 80%;}
 }
 
-.skills .skill .dedicacion{
+.skills .skill .windows{
     width: 0%;
-    animation: 2s dedicacion forwards;
+    animation: 2s windows forwards;
 }
-@keyframes dedicacion {
+@keyframes windows {
     0%{width: 0%;}
-    100%{width: 65%;}
+    100%{width: 100%;}
 }
 
-.skills .skill .proyect{
+.skills .skill .comunication{
     width: 0%;
-    animation: 2s proyect forwards;
+    animation: 2s comunication forwards;
 }
-@keyframes proyect {
+@keyframes comunication {
+    0%{width: 0%;}
+    100%{width: 85%;}
+}
+
+.skills .skill .teamwork{
+    width: 0%;
+    animation: 2s teamwork forwards;
+}
+@keyframes teamwork {
+    0%{width: 0%;}
+    100%{width: 90%;}
+}
+
+.skills .skill .resolution{
+    width: 0%;
+    animation: 2s resolution forwards;
+}
+@keyframes resolution {
+    0%{width: 0%;}
+    100%{width: 70%;}
+}
+
+.skills .skill .dedication{
+    width: 0%;
+    animation: 2s dedication forwards;
+}
+@keyframes dedication {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+
+.skills .skill .learning{
+    width: 0%;
+    animation: 2s learning forwards;
+}
+@keyframes learning {
     0%{width: 0%;}
     100%{width: 94%;}
 }

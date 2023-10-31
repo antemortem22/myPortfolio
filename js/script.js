@@ -1,19 +1,21 @@
-//Funcion que aplica las animaciones de las habilidades
-function efectoHabilidades(){
+function abilitiesEfect() {
     var skills = document.getElementById("skills");
-    var distancia_skills = window.innerHeight - skills.getBoundingClientRect().top;
-    if(distancia_skills >= 300){
-        let habilidades = document.getElementsByClassName("progreso");
-        habilidades[0].classList.add("javascript");
-        habilidades[1].classList.add("htmlcss");
-        habilidades[2].classList.add("photoshop");
-        habilidades[3].classList.add("wordpress");
-        habilidades[4].classList.add("drupal");
-        habilidades[5].classList.add("comunicacion");
-        habilidades[6].classList.add("trabajo");
-        habilidades[7].classList.add("creatividad");
-        habilidades[8].classList.add("dedicacion");
-        habilidades[9].classList.add("proyect");
+    var len_skills = window.innerHeight - skills.getBoundingClientRect().top;
+    if (len_skills >= 300) {
+        let abilities = document.querySelectorAll(".progress");
+        abilities[0].classList.add("javascript");
+        abilities[1].classList.add("htmlcss");
+        abilities[2].classList.add("python");
+        abilities[3].classList.add("linux");
+        abilities[4].classList.add("windows");
+        abilities[5].classList.add("comunication");
+        abilities[6].classList.add("teamwork");
+        abilities[7].classList.add("resolution");
+        abilities[8].classList.add("dedication");
+        abilities[9].classList.add("learning");
     }
-  }
+}
 
+window.onscroll = function () {
+    abilitiesEfect();
+}
