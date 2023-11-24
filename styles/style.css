@@ -4,7 +4,7 @@
     --purple:#d432da;
 }
 
-/*GENERAL CONFIG*/
+/**************** GENERAL CONFIG *************/
 *{
     font-family: 'Nunito', sans-serif;
     margin:0; padding:0;
@@ -42,7 +42,7 @@ section{
     min-height: 100vh;
 }
 
-/*HEADING*/
+/****************HEADING SECTION *************/
 
 .heading{
     text-align: center;
@@ -72,7 +72,7 @@ section{
     letter-spacing: .2rem;
 }
 
-/* NAV MENU*/
+/**************** NAV MENU*************/
 header{
     position: fixed;
     top:0; right:0;
@@ -113,7 +113,7 @@ header .navbar a:hover{
     display: none;
 }
 
-/*HOME SECTION*/
+/**************** HOME SECTION****************/
 .home .content .redes a{
     color: #fff;
     display: inline-block;
@@ -204,7 +204,7 @@ header .navbar a:hover{
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
 }
 
-/*ABOUT SECTION*/
+/**************** ABOUT SECTION *************/
 .about .row .content{
     flex:1 1 55rem;
 }
@@ -248,7 +248,7 @@ header .navbar a:hover{
     color:var(--purple);
 }
 
-/* SKILLS */
+/**************** SKILLS  SECTION ****************/
 .skills{
     padding: 50px 20px;
 }
@@ -345,13 +345,13 @@ header .navbar a:hover{
     100%{width: 80%;}
 }
 
-.skills .skill .windows{
+.skills .skill .csharp{
     width: 0%;
-    animation: 2s windows forwards;
+    animation: 2s csharp forwards;
 }
-@keyframes windows {
+@keyframes csharp {
     0%{width: 0%;}
-    100%{width: 100%;}
+    100%{width: 20%;}
 }
 
 .skills .skill .comunication{
@@ -399,7 +399,7 @@ header .navbar a:hover{
     100%{width: 94%;}
 }
 
-/*PROJECTS SECTION*/
+/**************** PROJECTS SECTION *************/
 .projects .box-container{
     display: flex;
     flex-wrap: wrap;
@@ -437,7 +437,7 @@ header .navbar a:hover{
     left:0;
 }
 
-/*CONTACT SECTION*/
+/**************** CONTACT SECTION *************/
 .contact .row{
     display:flex;
     align-items: center;
@@ -500,7 +500,7 @@ header .navbar a:hover{
     margin:.5rem 0;
 }
 
-/* FOOTER SECTION */
+/**************** FOOTER SECTION *************/
 .footer  .redes a{
     color:#000000;
     display: inline-block;
@@ -523,7 +523,7 @@ header .navbar a:hover{
 }
 
 
-/* MEDIA QUERIES  */
+/**************** MEDIA QUERIES  *************/
 @media (max-width:991px){
 
     html{
