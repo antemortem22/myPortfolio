@@ -278,6 +278,7 @@ header .navbar a:hover{
     color:var(--purple)
 }
 .skills .skill > span{
+    color: #ffffff;
     font-weight: bold;
     display: block;
     margin-bottom: 20px;
