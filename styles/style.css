@@ -11,7 +11,7 @@
     box-sizing: border-box;
     outline: none; border:none;
     text-decoration: none;
-    transition: all .5s linear;
+    transition: all .7s linear;
 }
 
 html{
@@ -138,7 +138,7 @@ header .navbar a:hover{
     height: 25px;
     background: #fff;
     border-radius: 50%;
-    transition: 0.25s;
+    transition: 0.27s;
     border: 2px solid #333;
     box-sizing: border-box;
     left: 0px;
@@ -340,7 +340,7 @@ header .navbar a:hover{
     font-size: 20px;
 }
 .skills .skill .skill-bar{
-    height: 8px;
+    height: 5px;
     width: 80%;
     background-color: #131517;
     position: relative;
@@ -351,23 +351,24 @@ header .navbar a:hover{
     position: absolute;
     top: 0;
     left: 0;
-    height: 8px;
+    height: 5px;
 }
 .skills .skill .skill-bar span{
     position: absolute;
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
     background-color: var(--purple);
     border-radius: 50px;
-    line-height: 40px;
+    line-height: 35px;
     text-align: center;
     top: -17px;
     right: -15px;
-    font-size: 14px;
+    font-size: 12px;
+    font-weight: bold;
 }
 .skills .skill .javascript{
     width: 0%;
-    animation: 5s javascript forwards;
+    animation: 7s javascript forwards;
 }
 @keyframes javascript {
     0%{width: 0%;}
@@ -376,7 +377,7 @@ header .navbar a:hover{
 
 .skills .skill .github{
     width: 0%;
-    animation: 5s github forwards;
+    animation: 7s github forwards;
 }
 @keyframes github {
     0%{width: 0%;}
@@ -385,7 +386,7 @@ header .navbar a:hover{
 
 .skills .skill .af{
     width: 0%;
-    animation: 5s af forwards;
+    animation: 7s af forwards;
 }
 @keyframes af {
     0%{width: 0%;}
@@ -394,7 +395,7 @@ header .navbar a:hover{
 
 .skills .skill .htmlcss{
     width: 0%;
-    animation: 5s htmlcss forwards;
+    animation: 7s htmlcss forwards;
 }
 @keyframes htmlcss {
     0%{width: 0%;}
@@ -403,7 +404,7 @@ header .navbar a:hover{
 
 .skills .skill .python{
     width: 0%;
-    animation: 5s python forwards;
+    animation: 7s python forwards;
 }
 @keyframes python {
     0%{width: 0%;}
@@ -412,7 +413,7 @@ header .navbar a:hover{
 
 .skills .skill .linux{
     width: 0%;
-    animation: 5s linux forwards;
+    animation: 7s linux forwards;
 }
 @keyframes linux {
     0%{width: 0%;}
@@ -421,7 +422,7 @@ header .navbar a:hover{
 
 .skills .skill .csharp{
     width: 0%;
-    animation: 5s csharp forwards;
+    animation: 7s csharp forwards;
 }
 @keyframes csharp {
     0%{width: 0%;}
@@ -430,7 +431,7 @@ header .navbar a:hover{
 
 .skills .skill .comunication{
     width: 0%;
-    animation: 5s comunication forwards;
+    animation: 7s comunication forwards;
 }
 @keyframes comunication {
     0%{width: 0%;}
@@ -439,7 +440,7 @@ header .navbar a:hover{
 
 .skills .skill .initiative{
     width: 0%;
-    animation: 5s initiative forwards;
+    animation: 7s initiative forwards;
 }
 @keyframes initiative {
     0%{width: 0%;}
@@ -448,7 +449,7 @@ header .navbar a:hover{
 
 .skills .skill .adaptability{
     width: 0%;
-    animation: 5s adaptability forwards;
+    animation: 7s adaptability forwards;
 }
 @keyframes adaptability {
     0%{width: 0%;}
@@ -458,7 +459,7 @@ header .navbar a:hover{
 
 .skills .skill .teamwork{
     width: 0%;
-    animation: 5s teamwork forwards;
+    animation: 7s teamwork forwards;
 }
 @keyframes teamwork {
     0%{width: 0%;}
@@ -467,7 +468,7 @@ header .navbar a:hover{
 
 .skills .skill .resolution{
     width: 0%;
-    animation: 5s resolution forwards;
+    animation: 7s resolution forwards;
 }
 @keyframes resolution {
     0%{width: 0%;}
@@ -476,7 +477,7 @@ header .navbar a:hover{
 
 .skills .skill .dedication{
     width: 0%;
-    animation: 5s dedication forwards;
+    animation: 7s dedication forwards;
 }
 @keyframes dedication {
     0%{width: 0%;}
@@ -485,7 +486,7 @@ header .navbar a:hover{
 
 .skills .skill .learning{
     width: 0%;
-    animation: 5s learning forwards;
+    animation: 7s learning forwards;
 }
 @keyframes learning {
     0%{width: 0%;}
