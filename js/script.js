@@ -1,7 +1,7 @@
 function abilitiesEfect() {
     var skills = document.getElementById("skills");
     var len_skills = window.innerHeight - skills.getBoundingClientRect().top;
-    if (len_skills >= 300) {
+    if (len_skills >= 500) {
         let abilities = document.querySelectorAll(".progress");
         abilities[0].classList.add("javascript");
         abilities[1].classList.add("htmlcss");
@@ -13,6 +13,10 @@ function abilitiesEfect() {
         abilities[7].classList.add("resolution");
         abilities[8].classList.add("dedication");
         abilities[9].classList.add("learning");
+        abilities[10].classList.add("af");
+        abilities[11].classList.add("github");
+        abilities[12].classList.add("initiative");
+        abilities[13].classList.add("adaptability");
     }
 }
 

@@ -11,7 +11,7 @@
     box-sizing: border-box;
     outline: none; border:none;
     text-decoration: none;
-    transition: all .2s linear;
+    transition: all .5s linear;
 }
 
 html{
@@ -99,6 +99,61 @@ header .navbar a{
 header .navbar a:hover{
     color:var(--purple);
 }
+
+#lenguage {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centra todo el contenido horizontalmente */
+    text-align: center; /* Asegura que el texto dentro del div esté centrado */
+}
+.en, .es {
+    color: #fff;
+    font-size: 20px; /* Igual al alto del check */
+    line-height: 25px; /* Alinea verticalmente el texto */
+    display: inline-flex;
+    align-items: center;
+    margin: 0 10px; /* Espaciado entre el texto y el checkbox */
+}
+
+.check {
+    position: relative;
+    width: 50px;
+    height: 20px;
+  
+}
+
+.check:before {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    background: #333;
+    border-radius: 25px;
+}
+
+.check:after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: #fff;
+    border-radius: 50%;
+    transition: 0.25s;
+    border: 2px solid #333;
+    box-sizing: border-box;
+    left: 0px;
+}
+
+.check:checked:after {
+    left: 25px;
+    border: 2px solid var(--purple);
+}
+
+.check:checked:before {
+    background: var(--purple);
+}
+
+
 
 #menu-bars{
     position: fixed;
@@ -312,16 +367,34 @@ header .navbar a:hover{
 }
 .skills .skill .javascript{
     width: 0%;
-    animation: 2s javascript forwards;
+    animation: 5s javascript forwards;
 }
 @keyframes javascript {
     0%{width: 0%;}
     100%{width: 50%;}
 }
 
+.skills .skill .github{
+    width: 0%;
+    animation: 5s github forwards;
+}
+@keyframes github {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+
+.skills .skill .af{
+    width: 0%;
+    animation: 5s af forwards;
+}
+@keyframes af {
+    0%{width: 0%;}
+    100%{width: 60%;}
+}
+
 .skills .skill .htmlcss{
     width: 0%;
-    animation: 2s htmlcss forwards;
+    animation: 5s htmlcss forwards;
 }
 @keyframes htmlcss {
     0%{width: 0%;}
@@ -330,7 +403,7 @@ header .navbar a:hover{
 
 .skills .skill .python{
     width: 0%;
-    animation: 2s python forwards;
+    animation: 5s python forwards;
 }
 @keyframes python {
     0%{width: 0%;}
@@ -339,7 +412,7 @@ header .navbar a:hover{
 
 .skills .skill .linux{
     width: 0%;
-    animation: 2s linux forwards;
+    animation: 5s linux forwards;
 }
 @keyframes linux {
     0%{width: 0%;}
@@ -348,25 +421,44 @@ header .navbar a:hover{
 
 .skills .skill .csharp{
     width: 0%;
-    animation: 2s csharp forwards;
+    animation: 5s csharp forwards;
 }
 @keyframes csharp {
     0%{width: 0%;}
-    100%{width: 45%;}
+    100%{width: 60%;}
 }
 
 .skills .skill .comunication{
     width: 0%;
-    animation: 2s comunication forwards;
+    animation: 5s comunication forwards;
 }
 @keyframes comunication {
     0%{width: 0%;}
     100%{width: 85%;}
 }
 
+.skills .skill .initiative{
+    width: 0%;
+    animation: 5s initiative forwards;
+}
+@keyframes initiative {
+    0%{width: 0%;}
+    100%{width: 95%;}
+}
+
+.skills .skill .adaptability{
+    width: 0%;
+    animation: 5s adaptability forwards;
+}
+@keyframes adaptability {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+
+
 .skills .skill .teamwork{
     width: 0%;
-    animation: 2s teamwork forwards;
+    animation: 5s teamwork forwards;
 }
 @keyframes teamwork {
     0%{width: 0%;}
@@ -375,7 +467,7 @@ header .navbar a:hover{
 
 .skills .skill .resolution{
     width: 0%;
-    animation: 2s resolution forwards;
+    animation: 5s resolution forwards;
 }
 @keyframes resolution {
     0%{width: 0%;}
@@ -384,7 +476,7 @@ header .navbar a:hover{
 
 .skills .skill .dedication{
     width: 0%;
-    animation: 2s dedication forwards;
+    animation: 5s dedication forwards;
 }
 @keyframes dedication {
     0%{width: 0%;}
@@ -393,7 +485,7 @@ header .navbar a:hover{
 
 .skills .skill .learning{
     width: 0%;
-    animation: 2s learning forwards;
+    animation: 5s learning forwards;
 }
 @keyframes learning {
     0%{width: 0%;}
@@ -516,7 +608,7 @@ header .navbar a:hover{
     transition: .3s;
 }
 .footer{
-    padding:2.5rem;
+    padding:1.5rem;
     font-size: 2rem;
     color:#ffffff;
     background:#370646;
